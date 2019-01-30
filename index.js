@@ -13,7 +13,7 @@ const moveDodgerLeft = () => {
   let currentLeftNumber = currentLeft.replace("px","") // "180"
   currentLeftNumber = parseInt(currentLeftNumber, 10) // 180
   if (currentLeftNumber > 0) {
-  dodger.style.left = currentLeftNumber - 5 + "px" // "179px"
+  dodger.style.left = currentLeftNumber - 10 + "px" // "179px"
   }
 }
   
@@ -25,7 +25,7 @@ const moveDodgerRight = () => {
   let currentRightNumber = currentRight.replace("px","") // "180"
   currentRightNumber = parseInt(currentRightNumber, 10) // 180
   if (currentRightNumber < 360) {
-  dodger.style.left = currentRightNumber + 5 + "px" // "181px"
+  dodger.style.left = currentRightNumber + 10 + "px" // "181px"
   }
   
   
